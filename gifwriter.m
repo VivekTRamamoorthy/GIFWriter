@@ -21,7 +21,7 @@ if ~exist('giffilename','var') || ~exist('gifdelaytime','var') ||...
     ~exist('giftrigger','var') || ~exist('writegif','var')
     %% GIF WRITER CONTROLS
     giffilename = './myanimation.gif'; % Name of the gif file
-    gifdelaytime = 0.3; % delay time between each image
+    gifdelaytime = 0.1; % delay time between each image
     giftrigger = true; % Trigger that resets the writing from first image
     writegif = true; % Whether or not to save gif. Toggle this off to stop writing gif
 end
