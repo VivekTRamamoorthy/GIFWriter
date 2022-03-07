@@ -1,12 +1,12 @@
 %% GIF WRITER
-%  % USAGE:
+% % USAGE:
 % % Include this in the beginning of your code:
-%     %%% GIF WRITER CONTROLS
-%     giffilename = './my_gif_filename.gif'; % Name of the gif file
-%     gifdelaytime = 0.3; % delay time between each image
-%     giftrigger = 1; % Trigger that resets the writing from first image
-%     writegif = 1; % Whether or not to save gif. Toggle this off to stop writing gif
-%     %%% END GIF WRITER CONTROLS
+% %%% GIF WRITER CONTROLS
+% giffilename = './my_gif_filename.gif'; % Name of the gif file
+% gifdelaytime = 0.3; % delay time between each image
+% giftrigger = 1; % Trigger that resets the writing from first image
+% writegif = 1; % Whether or not to save gif. Toggle this off to stop writing gif
+% %%% END GIF WRITER CONTROLS
 % % Include this after each plot frame:
 % gifwriter
 % % Author: Vivek T Ramamoothy (@VTRamamoorthy)
