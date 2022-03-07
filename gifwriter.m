@@ -19,10 +19,6 @@
 % This section performs check 
 if ~exist('giffilename','var') || ~exist('gifdelaytime','var') ||...
         ~exist('giftrigger','var') || ~exist('writegif','var')
-    keyboard
-    % Looks like you did not initiate the GIF WRITING controls properly
-    % To use default controls, just hit continue to use defaults
-    % Or Edit and place the following in the preamble of your code
     %% GIF WRITER CONTROLS
     giffilename = './myanimation.gif'; % Name of the gif file
     gifdelaytime = 0.3; % delay time between each image
