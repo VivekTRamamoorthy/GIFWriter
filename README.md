@@ -8,14 +8,14 @@ Quickly create GIF animations in Matlab
 
 ## Example
 ```
-x = linspace(0, 2*pi)
+x = linspace(0, 2*pi);
 for theta = 0:pi/32:4*pi
-  plot(x, sin(x+theta) )
+  plot(x, sin(x+theta) );
   gifwriter
 end
 
 for theta = 4*pi:-pi/32:0
-plot(x, sin(x+theta) )
+plot(x, sin(x+theta) );
   gifwriter
 end
 ```
