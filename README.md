@@ -7,7 +7,7 @@ Quickly create GIF animations in Matlab
 - Run your file and your gif animation is saved as `animation.gif`.
 
 ## Example
-```
+```matlab
 x = linspace(0, 2*pi);
 for theta = 0:pi/32:4*pi
   plot(x, sin(x+theta) );
@@ -25,7 +25,7 @@ end
 ## Optional controls
 Choose filename or delaytime by including the following in your preamble.
 
-```
+```matlab
 %%% GIF WRITER CONTROLS
 giffilename = './my_gif_filename.gif'; % Name of the gif file
 gifdelaytime = 0.3; % delay time between each image
